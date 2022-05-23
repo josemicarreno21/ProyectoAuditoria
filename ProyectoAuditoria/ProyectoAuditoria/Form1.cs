@@ -16,5 +16,22 @@ namespace ProyectoAuditoria
         {
             InitializeComponent();
         }
+
+        private void txtRPO1_TextChanged(object sender, EventArgs e)
+        {
+            string detRPO, detRTO;
+            if(Int32.Parse(txtRPO1.Text)<0.25 && Int32.Parse(txtRPO1.Text) >= 0.01)
+            {
+                detRPO = "Alta disponibilidad";
+            }
+            if (Int32.Parse(txtRPO1.Text) < 24 && Int32.Parse(txtRPO1.Text) >= 0.25)
+            {
+                detRPO = "Replicación asíncrona";
+            }
+            if (Int32.Parse(txtRPO1.Text) >= 24)
+            {
+                detRPO = "Respaldo";
+            }
+        }
     }
 }
