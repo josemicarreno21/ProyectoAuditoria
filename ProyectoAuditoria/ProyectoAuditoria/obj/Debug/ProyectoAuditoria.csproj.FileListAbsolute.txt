@@ -1,0 +1,20 @@
+C:\Users\ASUS TECH}\Desktop\Pryecto\ProyectoAuditoria\ProyectoAuditoria\ProyectoAuditoria\bin\Debug\ProyectoAuditoria.exe.config
+C:\Users\ASUS TECH}\Desktop\Pryecto\ProyectoAuditoria\ProyectoAuditoria\ProyectoAuditoria\bin\Debug\ProyectoAuditoria.exe
+C:\Users\ASUS TECH}\Desktop\Pryecto\ProyectoAuditoria\ProyectoAuditoria\ProyectoAuditoria\bin\Debug\ProyectoAuditoria.pdb
+C:\Users\ASUS TECH}\Desktop\Pryecto\ProyectoAuditoria\ProyectoAuditoria\ProyectoAuditoria\obj\Debug\ProyectoAuditoria.csproj.AssemblyReference.cache
+C:\Users\ASUS TECH}\Desktop\Pryecto\ProyectoAuditoria\ProyectoAuditoria\ProyectoAuditoria\obj\Debug\ProyectoAuditoria.Form1.resources
+C:\Users\ASUS TECH}\Desktop\Pryecto\ProyectoAuditoria\ProyectoAuditoria\ProyectoAuditoria\obj\Debug\ProyectoAuditoria.Properties.Resources.resources
+C:\Users\ASUS TECH}\Desktop\Pryecto\ProyectoAuditoria\ProyectoAuditoria\ProyectoAuditoria\obj\Debug\ProyectoAuditoria.csproj.GenerateResource.cache
+C:\Users\ASUS TECH}\Desktop\Pryecto\ProyectoAuditoria\ProyectoAuditoria\ProyectoAuditoria\obj\Debug\ProyectoAuditoria.csproj.CoreCompileInputs.cache
+C:\Users\ASUS TECH}\Desktop\Pryecto\ProyectoAuditoria\ProyectoAuditoria\ProyectoAuditoria\obj\Debug\ProyectoAuditoria.exe
+C:\Users\ASUS TECH}\Desktop\Pryecto\ProyectoAuditoria\ProyectoAuditoria\ProyectoAuditoria\obj\Debug\ProyectoAuditoria.pdb
+C:\Users\Usuario\Downloads\Pryecto\ProyectoAuditoria\ProyectoAuditoria\ProyectoAuditoria\bin\Debug\ProyectoAuditoria.exe.config
+C:\Users\Usuario\Downloads\Pryecto\ProyectoAuditoria\ProyectoAuditoria\ProyectoAuditoria\bin\Debug\ProyectoAuditoria.exe
+C:\Users\Usuario\Downloads\Pryecto\ProyectoAuditoria\ProyectoAuditoria\ProyectoAuditoria\bin\Debug\ProyectoAuditoria.pdb
+C:\Users\Usuario\Downloads\Pryecto\ProyectoAuditoria\ProyectoAuditoria\ProyectoAuditoria\obj\Debug\ProyectoAuditoria.csprojAssemblyReference.cache
+C:\Users\Usuario\Downloads\Pryecto\ProyectoAuditoria\ProyectoAuditoria\ProyectoAuditoria\obj\Debug\ProyectoAuditoria.Form1.resources
+C:\Users\Usuario\Downloads\Pryecto\ProyectoAuditoria\ProyectoAuditoria\ProyectoAuditoria\obj\Debug\ProyectoAuditoria.Properties.Resources.resources
+C:\Users\Usuario\Downloads\Pryecto\ProyectoAuditoria\ProyectoAuditoria\ProyectoAuditoria\obj\Debug\ProyectoAuditoria.csproj.GenerateResource.cache
+C:\Users\Usuario\Downloads\Pryecto\ProyectoAuditoria\ProyectoAuditoria\ProyectoAuditoria\obj\Debug\ProyectoAuditoria.csproj.CoreCompileInputs.cache
+C:\Users\Usuario\Downloads\Pryecto\ProyectoAuditoria\ProyectoAuditoria\ProyectoAuditoria\obj\Debug\ProyectoAuditoria.exe
+C:\Users\Usuario\Downloads\Pryecto\ProyectoAuditoria\ProyectoAuditoria\ProyectoAuditoria\obj\Debug\ProyectoAuditoria.pdb
