@@ -19,6 +19,11 @@ namespace ProyectoAuditoria
 
         private void button1_Click(object sender, EventArgs e)
         {
+            Form formRegistro = new FormRegistro();
+            formRegistro.Show();
+        }
+        private void LlenarTabla()
+        {
             string detRPO = "", detRTO = "";
             if (Double.Parse(txtRPO1.Text) < 0.25 && Double.Parse(txtRPO1.Text) >= 0.01)
             {
