@@ -45,6 +45,24 @@ namespace ProyectoAuditoria
             }
         }
 
+        public static DataTable Buscar(String vnom)
+        {
+            Matriz vc = new Matriz();
+            using (SqlConnection con = Conexion.ObtenerConexion())
+            {
+                String queryString = "Select * from Matriz where Nombre=@nom";
+                SqlCommand command = new SqlCommand(queryString, con);
+                command.Parameters.AddWithValue("@nom", vnom);
+                DataSet datos = new DataSet();
+                SqlDataAdapter adaptador = new SqlDataAdapter();
+                adaptador.SelectCommand = command;
+                adaptador.Fill(datos, "Matriz");
+                con.Close();
+                DataTable tabla = datos.Tables["Matriz"];
+                return tabla;
+            }
+        }
+
         public static int Agregar(Matriz P)
         {
             int retorno = 0;

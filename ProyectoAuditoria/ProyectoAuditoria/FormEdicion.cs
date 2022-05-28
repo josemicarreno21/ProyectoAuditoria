@@ -134,24 +134,34 @@ namespace ProyectoAuditoria
             }
             else
             {
-                if (Buscar())
+                try
                 {
-                    Cargar();
-                }
-                else
-                {
-                    MessageBox.Show("Aplicativo o servicio TI no encontrado. Verifique que el nombre está bien escrito.");
-                }
-                
-            }
-        }
-        private bool Buscar()
-        {
-            return true;
-        }
-        private void Cargar()
-        {
+                    DataTable tabla = Matriz.Buscar(txtNombre.Text);
+                    if (tabla.Rows.Count > 0)
+                    {
+                        DataRow fila = tabla.Rows[0];
+                        txtNombre.Text = fila[0].ToString();
+                        txtRPO.Text = fila[1].ToString();
+                        txtRTO.Text = fila[2].ToString();
 
+                        string split = fila[3].ToString();
+                        List<string> list = new List<string>();
+                        list = split.Split('/').ToList();
+
+                        cmbDetRPO.Text = list[0];
+                        cmbDetRTO.Text = list[1];
+                    }
+                    else
+                    {
+                        MessageBox.Show("Activo no encontrado", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                    }
+                }
+                catch (Exception ex)
+                {
+                    MessageBox.Show(ex.Message, "ERROR", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                }
+
+            }
         }
 
         private void label3_Click(object sender, EventArgs e)
