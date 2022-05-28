@@ -29,3 +29,16 @@ C:\Users\Usuario\OneDrive\Escritorio\Proyecto Audi\ProyectoAuditoria\ProyectoAud
 C:\Users\Usuario\OneDrive\Escritorio\Proyecto Audi\ProyectoAuditoria\ProyectoAuditoria\ProyectoAuditoria\obj\Debug\ProyectoAuditoria.csproj.CoreCompileInputs.cache
 C:\Users\Usuario\OneDrive\Escritorio\Proyecto Audi\ProyectoAuditoria\ProyectoAuditoria\ProyectoAuditoria\obj\Debug\ProyectoAuditoria.exe
 C:\Users\Usuario\OneDrive\Escritorio\Proyecto Audi\ProyectoAuditoria\ProyectoAuditoria\ProyectoAuditoria\obj\Debug\ProyectoAuditoria.pdb
+C:\Users\ASUS TECH}\Desktop\ProyectoAuditoria\ProyectoAuditoria\ProyectoAuditoria\ProyectoAuditoria\bin\Debug\ProyectoAuditoria.exe.config
+C:\Users\ASUS TECH}\Desktop\ProyectoAuditoria\ProyectoAuditoria\ProyectoAuditoria\ProyectoAuditoria\bin\Debug\ProyectoAuditoria.exe
+C:\Users\ASUS TECH}\Desktop\ProyectoAuditoria\ProyectoAuditoria\ProyectoAuditoria\ProyectoAuditoria\bin\Debug\ProyectoAuditoria.pdb
+C:\Users\ASUS TECH}\Desktop\ProyectoAuditoria\ProyectoAuditoria\ProyectoAuditoria\ProyectoAuditoria\obj\Debug\ProyectoAuditoria.csproj.AssemblyReference.cache
+C:\Users\ASUS TECH}\Desktop\ProyectoAuditoria\ProyectoAuditoria\ProyectoAuditoria\ProyectoAuditoria\obj\Debug\ProyectoAuditoria.Form1.resources
+C:\Users\ASUS TECH}\Desktop\ProyectoAuditoria\ProyectoAuditoria\ProyectoAuditoria\ProyectoAuditoria\obj\Debug\ProyectoAuditoria.FormEdicion.resources
+C:\Users\ASUS TECH}\Desktop\ProyectoAuditoria\ProyectoAuditoria\ProyectoAuditoria\ProyectoAuditoria\obj\Debug\ProyectoAuditoria.FormRegistro.resources
+C:\Users\ASUS TECH}\Desktop\ProyectoAuditoria\ProyectoAuditoria\ProyectoAuditoria\ProyectoAuditoria\obj\Debug\ProyectoAuditoria.InicioSesion.resources
+C:\Users\ASUS TECH}\Desktop\ProyectoAuditoria\ProyectoAuditoria\ProyectoAuditoria\ProyectoAuditoria\obj\Debug\ProyectoAuditoria.Properties.Resources.resources
+C:\Users\ASUS TECH}\Desktop\ProyectoAuditoria\ProyectoAuditoria\ProyectoAuditoria\ProyectoAuditoria\obj\Debug\ProyectoAuditoria.csproj.GenerateResource.cache
+C:\Users\ASUS TECH}\Desktop\ProyectoAuditoria\ProyectoAuditoria\ProyectoAuditoria\ProyectoAuditoria\obj\Debug\ProyectoAuditoria.csproj.CoreCompileInputs.cache
+C:\Users\ASUS TECH}\Desktop\ProyectoAuditoria\ProyectoAuditoria\ProyectoAuditoria\ProyectoAuditoria\obj\Debug\ProyectoAuditoria.exe
+C:\Users\ASUS TECH}\Desktop\ProyectoAuditoria\ProyectoAuditoria\ProyectoAuditoria\ProyectoAuditoria\obj\Debug\ProyectoAuditoria.pdb
