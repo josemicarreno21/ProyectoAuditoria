@@ -24,53 +24,57 @@ namespace ProyectoAuditoria
         }
         private void LlenarTabla()
         {
-            string detRPO = "", detRTO = "";
-            if (Double.Parse(txtRPO1.Text) < 0.25 && Double.Parse(txtRPO1.Text) >= 0.01)
+            try
             {
-                detRPO = "Alta disponibilidad";
-            }
-            if (Double.Parse(txtRPO1.Text) < 24 && Double.Parse(txtRPO1.Text) >= 0.25)
-            {
-                detRPO = "Replicación asíncrona";
-            }
-            if (Double.Parse(txtRPO1.Text) >= 24)
-            {
-                detRPO = "Respaldo";
-            }
-            if (Double.Parse(txtRTO1.Text) < 1 && Double.Parse(txtRTO1.Text) >= 0.01)
-            {
-                detRTO = "Hot Site";
-            }
-            if (Double.Parse(txtRTO1.Text) < 24 && Double.Parse(txtRTO1.Text) >= 2)
-            {
-                detRTO = "Sitio tibio";
-            }
-            if (Double.Parse(txtRTO1.Text) >= 24)
-            {
-                detRTO = "Sitio frio";
-            }
-            lblDetalle1.Text = detRPO + "/" + detRTO;
+                DataTable tabla = Matriz.Listado();
+                dataGridView1.DataSource = tabla;
+                dataGridView1.Refresh();
 
-
-            double LBC = Double.Parse(txtRPO1.Text) + Double.Parse(txtRTO1.Text);
-            lblLBC1.Text = LBC.ToString();
-
-
-            double prioridad = 0;
-            if (LBC < 1)
-            {
-                prioridad = 1;
             }
-            if (LBC < 24 && LBC > 1)
+            catch (Exception ex)
             {
-                prioridad = 2;
+                MessageBox.Show(ex.Message, "ERROR", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
-            if (LBC >= 24)
-            {
-                prioridad = 3;
-            }
+        }
 
-            lblPrioridad1.Text = prioridad.ToString();
+        private void LlenarTablaEnObservacion()
+        {
+            try
+            {
+                DataTable tabla = EstadoCritico.Listado();
+                dataGridView2.DataSource = tabla;
+                dataGridView2.Refresh();
+
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message, "ERROR", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+        }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+            LlenarTabla();
+            LlenarTablaEnObservacion();
+        }
+
+        private void btnEditar_Click(object sender, EventArgs e)
+        {
+            Form formEdicion = new FormEdicion();
+            formEdicion.Show();
+        }
+
+        private void button1_Click_1(object sender, EventArgs e)
+        {
+            Form inicioSesion = new InicioSesion();
+            this.Hide();
+            inicioSesion.Show();
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            LlenarTabla();
+            LlenarTablaEnObservacion();
         }
     }
 }

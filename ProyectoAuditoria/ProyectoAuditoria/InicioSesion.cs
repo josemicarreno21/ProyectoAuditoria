@@ -12,31 +12,32 @@ namespace ProyectoAuditoria
 {
     public partial class InicioSesion : Form
     {
+        int cont = 0;
+
         public InicioSesion()
         {
             InitializeComponent();
         }
 
-        private void label2_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void txtUsuario_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
         private void btnIniciarSesion_Click(object sender, EventArgs e)
         {
-            Form form1 = new Form1();
-            form1.Show();
-            this.Hide();
-        }
+            if (cont == 5)
+            {
+                MessageBox.Show("Demasiados intentos sin exito, vuelva en un rato :)");
+                Application.Exit();
+            }
 
-        private void InicioSesion_Load(object sender, EventArgs e)
-        {
-
+            if (Usuario.Autentificar(txtUsuario.Text, txtContrasenia.Text) > 0)
+            {
+                this.Hide();
+                Form1 form1 = new Form1();
+                form1.Show();
+            }
+            else
+            {
+                MessageBox.Show("Datos incorrectos o incompletos");
+                cont = cont + 1;
+            }
         }
     }
 }

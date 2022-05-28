@@ -42,3 +42,5 @@ C:\Users\ASUS TECH}\Desktop\ProyectoAuditoria\ProyectoAuditoria\ProyectoAuditori
 C:\Users\ASUS TECH}\Desktop\ProyectoAuditoria\ProyectoAuditoria\ProyectoAuditoria\ProyectoAuditoria\obj\Debug\ProyectoAuditoria.csproj.CoreCompileInputs.cache
 C:\Users\ASUS TECH}\Desktop\ProyectoAuditoria\ProyectoAuditoria\ProyectoAuditoria\ProyectoAuditoria\obj\Debug\ProyectoAuditoria.exe
 C:\Users\ASUS TECH}\Desktop\ProyectoAuditoria\ProyectoAuditoria\ProyectoAuditoria\ProyectoAuditoria\obj\Debug\ProyectoAuditoria.pdb
+C:\Users\Usuario\OneDrive\Escritorio\Proyecto Audi\ProyectoAuditoria\ProyectoAuditoria\ProyectoAuditoria\obj\Debug\ProyectoAuditoria.FormEdicion.resources
+C:\Users\Usuario\OneDrive\Escritorio\Proyecto Audi\ProyectoAuditoria\ProyectoAuditoria\ProyectoAuditoria\obj\Debug\ProyectoAuditoria.InicioSesion.resources

@@ -71,7 +71,6 @@ namespace ProyectoAuditoria
             this.txtUsuario.Name = "txtUsuario";
             this.txtUsuario.Size = new System.Drawing.Size(352, 45);
             this.txtUsuario.TabIndex = 19;
-            this.txtUsuario.TextChanged += new System.EventHandler(this.txtUsuario_TextChanged);
             // 
             // label3
             // 
@@ -96,7 +95,6 @@ namespace ProyectoAuditoria
             this.label2.Size = new System.Drawing.Size(137, 38);
             this.label2.TabIndex = 14;
             this.label2.Text = "Usuario:";
-            this.label2.Click += new System.EventHandler(this.label2_Click);
             // 
             // pictureBox1
             // 
@@ -122,7 +120,6 @@ namespace ProyectoAuditoria
             this.Controls.Add(this.label2);
             this.Name = "InicioSesion";
             this.Text = "InicioSesion";
-            this.Load += new System.EventHandler(this.InicioSesion_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
