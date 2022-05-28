@@ -13,6 +13,8 @@ namespace ProyectoAuditoria
         {
             //xD
             SqlConnection connection = new SqlConnection("Data Source=DESKTOP-37R7SNI;Initial Catalog=ProyectoFinalAuditoria;Integrated Security=True");
+            //SqlConnection connection = new SqlConnection("Data Source=DESKTOP-37R7SNI;Initial Catalog=ProyectoFinalAuditoria;Integrated Security=True");
+            SqlConnection connection = new SqlConnection("Data Source=DESKTOP-M6PR238\\SQLEXPRESS;Initial Catalog=ProyectoFinalAuditoria;Integrated Security=True");
             connection.Open();
             return connection;
         }
