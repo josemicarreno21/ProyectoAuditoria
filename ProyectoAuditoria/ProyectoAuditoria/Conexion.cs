@@ -11,6 +11,7 @@ namespace ProyectoAuditoria
     {
         public static SqlConnection ObtenerConexion()
         {
+            //xD
             SqlConnection connection = new SqlConnection("Data Source=DESKTOP-37R7SNI;Initial Catalog=ProyectoFinalAuditoria;Integrated Security=True");
             connection.Open();
             return connection;
