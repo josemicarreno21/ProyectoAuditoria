@@ -17,33 +17,6 @@ namespace ProyectoAuditoria
             InitializeComponent();
         }
 
-        private void btnAceptar_Click(object sender, EventArgs e)
-        {
-            if(String.IsNullOrEmpty(txtNombre.Text) || String.IsNullOrEmpty(txtRPO.Text) || String.IsNullOrEmpty(cmbDetRPO.Text) 
-                || String.IsNullOrEmpty(txtRTO.Text) || String.IsNullOrEmpty(cmbDetRTO.Text))
-            {
-                MessageBox.Show("No puede dejar campos vacios para el registro.");
-            }
-            else
-            {
-                DialogResult result = MessageBox.Show("Tiempo máximo de tolerancia a la interrupción de este activo es: "+ CalcularTMTI()+
-                    " ¿es un periodo de tiempo correcto para este activo?", "¿TMTI correcto?", MessageBoxButtons.YesNo);
-
-                if (result == DialogResult.Yes)
-                {
-                    Registrar();
-                    this.Hide();
-                }
-                else if (result == DialogResult.No)
-                {
-                    Registrar();
-                    Sugerencia();
-                    AgregarEstadoCritico();
-                    this.Hide();
-                }
-                
-            }
-        }
         private void AgregarEstadoCritico()
         {
             EstadoCritico x = new EstadoCritico(txtNombre.Text);
@@ -242,6 +215,34 @@ namespace ProyectoAuditoria
             if ((e.KeyChar == ',') && ((sender as TextBox).Text.IndexOf(',') > -1))
             {
                 e.Handled = true;
+            }
+        }
+
+        private void btnAceptar_Click_1(object sender, EventArgs e)
+        {
+            if (String.IsNullOrEmpty(txtNombre.Text) || String.IsNullOrEmpty(txtRPO.Text) || String.IsNullOrEmpty(cmbDetRPO.Text)
+                || String.IsNullOrEmpty(txtRTO.Text) || String.IsNullOrEmpty(cmbDetRTO.Text))
+            {
+                MessageBox.Show("No puede dejar campos vacios para el registro.");
+            }
+            else
+            {
+                DialogResult result = MessageBox.Show("Tiempo máximo de tolerancia a la interrupción de este activo es: " + CalcularTMTI() +
+                    " ¿es un periodo de tiempo correcto para este activo?", "¿TMTI correcto?", MessageBoxButtons.YesNo);
+
+                if (result == DialogResult.Yes)
+                {
+                    Registrar();
+                    this.Hide();
+                }
+                else if (result == DialogResult.No)
+                {
+                    Registrar();
+                    Sugerencia();
+                    AgregarEstadoCritico();
+                    this.Hide();
+                }
+
             }
         }
     }
