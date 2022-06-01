@@ -57,8 +57,8 @@ namespace ProyectoAuditoria
             "Sitio Caliente",
             "Sitio Tibio",
             "Sitio Frio"});
-            this.cmbDetRTO.Location = new System.Drawing.Point(214, 221);
-            this.cmbDetRTO.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.cmbDetRTO.Location = new System.Drawing.Point(227, 221);
+            this.cmbDetRTO.Margin = new System.Windows.Forms.Padding(4);
             this.cmbDetRTO.Name = "cmbDetRTO";
             this.cmbDetRTO.Size = new System.Drawing.Size(351, 40);
             this.cmbDetRTO.TabIndex = 25;
@@ -72,8 +72,8 @@ namespace ProyectoAuditoria
             "Alta disponibilidad",
             "Replicación asíncrona",
             "Respaldo"});
-            this.cmbDetRPO.Location = new System.Drawing.Point(214, 91);
-            this.cmbDetRPO.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.cmbDetRPO.Location = new System.Drawing.Point(227, 91);
+            this.cmbDetRPO.Margin = new System.Windows.Forms.Padding(4);
             this.cmbDetRPO.Name = "cmbDetRPO";
             this.cmbDetRPO.Size = new System.Drawing.Size(351, 40);
             this.cmbDetRPO.TabIndex = 24;
@@ -86,7 +86,7 @@ namespace ProyectoAuditoria
             this.btnAceptar.Font = new System.Drawing.Font("Arial Rounded MT Bold", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnAceptar.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.btnAceptar.Location = new System.Drawing.Point(405, 546);
-            this.btnAceptar.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnAceptar.Margin = new System.Windows.Forms.Padding(4);
             this.btnAceptar.Name = "btnAceptar";
             this.btnAceptar.Size = new System.Drawing.Size(259, 63);
             this.btnAceptar.TabIndex = 23;
@@ -97,8 +97,8 @@ namespace ProyectoAuditoria
             // txtRTO
             // 
             this.txtRTO.Font = new System.Drawing.Font("Arial", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtRTO.Location = new System.Drawing.Point(214, 161);
-            this.txtRTO.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtRTO.Location = new System.Drawing.Point(227, 161);
+            this.txtRTO.Margin = new System.Windows.Forms.Padding(4);
             this.txtRTO.Name = "txtRTO";
             this.txtRTO.Size = new System.Drawing.Size(353, 39);
             this.txtRTO.TabIndex = 22;
@@ -107,8 +107,8 @@ namespace ProyectoAuditoria
             // txtRPO
             // 
             this.txtRPO.Font = new System.Drawing.Font("Arial", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtRPO.Location = new System.Drawing.Point(214, 30);
-            this.txtRPO.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtRPO.Location = new System.Drawing.Point(227, 30);
+            this.txtRPO.Margin = new System.Windows.Forms.Padding(4);
             this.txtRPO.Name = "txtRPO";
             this.txtRPO.Size = new System.Drawing.Size(353, 39);
             this.txtRPO.TabIndex = 21;
@@ -118,7 +118,7 @@ namespace ProyectoAuditoria
             // 
             this.txtNombre.Font = new System.Drawing.Font("Arial", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtNombre.Location = new System.Drawing.Point(99, 148);
-            this.txtNombre.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtNombre.Margin = new System.Windows.Forms.Padding(4);
             this.txtNombre.Name = "txtNombre";
             this.txtNombre.Size = new System.Drawing.Size(353, 39);
             this.txtNombre.TabIndex = 20;
@@ -191,7 +191,7 @@ namespace ProyectoAuditoria
             this.label1.Location = new System.Drawing.Point(151, 35);
             this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(495, 39);
+            this.label1.Size = new System.Drawing.Size(484, 38);
             this.label1.TabIndex = 14;
             this.label1.Text = "Editar aplicativo o servicio TI";
             // 
@@ -205,7 +205,7 @@ namespace ProyectoAuditoria
             this.btnBuscar.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnBuscar.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.btnBuscar.Location = new System.Drawing.Point(469, 137);
-            this.btnBuscar.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnBuscar.Margin = new System.Windows.Forms.Padding(4);
             this.btnBuscar.Name = "btnBuscar";
             this.btnBuscar.Size = new System.Drawing.Size(66, 58);
             this.btnBuscar.TabIndex = 26;
@@ -220,7 +220,7 @@ namespace ProyectoAuditoria
             this.btnEliminar.Font = new System.Drawing.Font("Arial Rounded MT Bold", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnEliminar.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.btnEliminar.Location = new System.Drawing.Point(123, 546);
-            this.btnEliminar.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnEliminar.Margin = new System.Windows.Forms.Padding(4);
             this.btnEliminar.Name = "btnEliminar";
             this.btnEliminar.Size = new System.Drawing.Size(259, 63);
             this.btnEliminar.TabIndex = 27;
@@ -239,9 +239,9 @@ namespace ProyectoAuditoria
             this.groupBox1.Controls.Add(this.cmbDetRPO);
             this.groupBox1.Controls.Add(this.label5);
             this.groupBox1.Controls.Add(this.txtRTO);
-            this.groupBox1.Location = new System.Drawing.Point(99, 213);
+            this.groupBox1.Location = new System.Drawing.Point(84, 219);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(590, 296);
+            this.groupBox1.Size = new System.Drawing.Size(613, 296);
             this.groupBox1.TabIndex = 34;
             this.groupBox1.TabStop = false;
             // 
@@ -258,7 +258,7 @@ namespace ProyectoAuditoria
             this.Controls.Add(this.txtNombre);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "FormEdicion";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "FormEdicion";

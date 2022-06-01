@@ -48,5 +48,10 @@ namespace ProyectoAuditoria
         {
             this.WindowState = FormWindowState.Minimized;
         }
+
+        private void imgSalir_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
