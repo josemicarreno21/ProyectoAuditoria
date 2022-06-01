@@ -44,5 +44,18 @@ namespace ProyectoAuditoria
             }
             return retorno;
         }
+        public static int Eliminar(String P)
+        {
+            int retorno = 0;
+            using (SqlConnection con = Conexion.ObtenerConexion())
+            {
+                string query = "Delete from EstadoCritico where Nombre=@nom;";
+                SqlCommand command = new SqlCommand(query, con);
+                command.Parameters.AddWithValue("@nom", P);
+                retorno = command.ExecuteNonQuery();
+                con.Close();
+            }
+            return retorno;
+        }
     }
 }

@@ -57,3 +57,4 @@ C:\Users\ASUS TECH}\Desktop\SistemaProyectoAuditoria\ProyectoAuditoria\ProyectoA
 C:\Users\ASUS TECH}\Desktop\SistemaProyectoAuditoria\ProyectoAuditoria\ProyectoAuditoria\ProyectoAuditoria\obj\Debug\ProyectoAuditoria.csproj.CoreCompileInputs.cache
 C:\Users\ASUS TECH}\Desktop\SistemaProyectoAuditoria\ProyectoAuditoria\ProyectoAuditoria\ProyectoAuditoria\obj\Debug\ProyectoAuditoria.exe
 C:\Users\ASUS TECH}\Desktop\SistemaProyectoAuditoria\ProyectoAuditoria\ProyectoAuditoria\ProyectoAuditoria\obj\Debug\ProyectoAuditoria.pdb
+C:\Users\Usuario\OneDrive\Escritorio\Proyecto Audi\ProyectoAuditoria\ProyectoAuditoria\ProyectoAuditoria\obj\Debug\ProyectoAuditoria.FormEmpleado.resources

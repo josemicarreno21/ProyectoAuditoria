@@ -22,12 +22,28 @@ namespace ProyectoAuditoria
             this.tipo = vti;
         }
 
-        public static int Autentificar(string vusuario, string vcontraseña)
+        public static int AutentificarAdmin(string vusuario, string vcontraseña)
         {
             int Retorno = 0;
             using (SqlConnection con = Conexion.ObtenerConexion())
             {
-                SqlCommand comando = new SqlCommand(string.Format("Select Tipo from Usuario where Usuario = '{0}' and Contraseña = '{1}' and Tipo <> 'Empleado'"
+                SqlCommand comando = new SqlCommand(string.Format("Select Tipo from Usuario where Usuario = '{0}' and Contraseña = '{1}' and Tipo = 'Administrador'"
+                    , vusuario, vcontraseña), con);
+                SqlDataReader leer = comando.ExecuteReader();
+                while (leer.Read())
+                {
+                    Retorno = 1;
+                }
+                con.Close();
+            }
+            return Retorno;
+        }
+        public static int AutentificarEmpleado(string vusuario, string vcontraseña)
+        {
+            int Retorno = 0;
+            using (SqlConnection con = Conexion.ObtenerConexion())
+            {
+                SqlCommand comando = new SqlCommand(string.Format("Select Tipo from Usuario where Usuario = '{0}' and Contraseña = '{1}' and Tipo <> 'Administrador'"
                     , vusuario, vcontraseña), con);
                 SqlDataReader leer = comando.ExecuteReader();
                 while (leer.Read())

@@ -26,17 +26,34 @@ namespace ProyectoAuditoria
                 MessageBox.Show("Demasiados intentos sin exito, vuelva en un rato :)");
                 Application.Exit();
             }
-
-            if (Usuario.Autentificar(txtUsuario.Text, txtContrasenia.Text) > 0)
+            if (txtContrasenia.TextLength >= 8)
             {
-                this.Hide();
-                Form1 form1 = new Form1();
-                form1.Show();
+                if (Usuario.AutentificarAdmin(txtUsuario.Text, txtContrasenia.Text) > 0)
+                {
+                    MessageBox.Show("Bienvenido Administrador.");
+                    this.Hide();
+                    Form1 form1 = new Form1();
+                    form1.Show();
+                }
+                else
+                {
+                    if (Usuario.AutentificarEmpleado(txtUsuario.Text, txtContrasenia.Text) > 0)
+                    {
+                        MessageBox.Show("Bienvenido Empleado.");
+                        this.Hide();
+                        FormEmpleado formEmpleado = new FormEmpleado();
+                        formEmpleado.Show();
+                    }
+                    else
+                    {
+                        MessageBox.Show("Datos incorrectos o incompletos");
+                        cont = cont + 1;
+                    }
+                }
             }
             else
             {
-                MessageBox.Show("Datos incorrectos o incompletos");
-                cont = cont + 1;
+                MessageBox.Show("Formato de contraseña incorrecto.");
             }
         }
     }

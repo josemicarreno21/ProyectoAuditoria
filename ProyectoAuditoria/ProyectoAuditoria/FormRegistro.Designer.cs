@@ -66,7 +66,6 @@ namespace ProyectoAuditoria
             this.label2.Size = new System.Drawing.Size(295, 32);
             this.label2.TabIndex = 1;
             this.label2.Text = "Aplicativo o servicio TI:";
-            this.label2.Click += new System.EventHandler(this.label2_Click);
             // 
             // label3
             // 
@@ -115,7 +114,6 @@ namespace ProyectoAuditoria
             this.label6.Size = new System.Drawing.Size(177, 32);
             this.label6.TabIndex = 4;
             this.label6.Text = "Detalle RPO:";
-            this.label6.Click += new System.EventHandler(this.label6_Click);
             // 
             // txtNombre
             // 

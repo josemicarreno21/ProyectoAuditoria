@@ -61,7 +61,7 @@ namespace ProyectoAuditoria
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dataGridView1.Location = new System.Drawing.Point(11, 90);
             this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.Size = new System.Drawing.Size(661, 323);
+            this.dataGridView1.Size = new System.Drawing.Size(787, 323);
             this.dataGridView1.TabIndex = 71;
             // 
             // btnEditar
@@ -105,7 +105,7 @@ namespace ProyectoAuditoria
             this.button1.BackColor = System.Drawing.Color.DimGray;
             this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button1.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.button1.Location = new System.Drawing.Point(690, 426);
+            this.button1.Location = new System.Drawing.Point(815, 426);
             this.button1.Margin = new System.Windows.Forms.Padding(2);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(172, 54);
@@ -119,7 +119,7 @@ namespace ProyectoAuditoria
             this.button2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(1)))), ((int)(((byte)(1)))));
             this.button2.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button2.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.button2.Location = new System.Drawing.Point(490, 418);
+            this.button2.Location = new System.Drawing.Point(616, 418);
             this.button2.Margin = new System.Windows.Forms.Padding(2);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(182, 71);
@@ -131,7 +131,7 @@ namespace ProyectoAuditoria
             // dataGridView2
             // 
             this.dataGridView2.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView2.Location = new System.Drawing.Point(690, 90);
+            this.dataGridView2.Location = new System.Drawing.Point(815, 90);
             this.dataGridView2.Name = "dataGridView2";
             this.dataGridView2.Size = new System.Drawing.Size(172, 323);
             this.dataGridView2.TabIndex = 77;
@@ -141,7 +141,7 @@ namespace ProyectoAuditoria
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Arial", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label3.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.label3.Location = new System.Drawing.Point(685, 60);
+            this.label3.Location = new System.Drawing.Point(810, 60);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(177, 27);
             this.label3.TabIndex = 78;
@@ -152,7 +152,7 @@ namespace ProyectoAuditoria
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(37)))), ((int)(((byte)(105)))), ((int)(((byte)(176)))));
-            this.ClientSize = new System.Drawing.Size(878, 500);
+            this.ClientSize = new System.Drawing.Size(998, 500);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.dataGridView2);
             this.Controls.Add(this.button2);
@@ -164,6 +164,7 @@ namespace ProyectoAuditoria
             this.Controls.Add(this.btnRegistrar);
             this.Name = "Form1";
             this.Text = "Form1";
+            this.Activated += new System.EventHandler(this.Form1_Activated);
             this.Load += new System.EventHandler(this.Form1_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView2)).EndInit();

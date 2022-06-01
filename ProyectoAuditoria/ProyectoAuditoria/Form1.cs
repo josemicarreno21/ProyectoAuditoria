@@ -76,5 +76,11 @@ namespace ProyectoAuditoria
             LlenarTabla();
             LlenarTablaEnObservacion();
         }
+
+        private void Form1_Activated(object sender, EventArgs e)
+        {
+            LlenarTabla();
+            LlenarTablaEnObservacion();
+        }
     }
 }
